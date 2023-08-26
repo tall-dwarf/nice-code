@@ -23,15 +23,16 @@ const iconsData = {
 }
 
 type IconButtonProps = {
-    icon: keyof typeof iconsData
+    icon: keyof typeof iconsData,
+    onClick: () => void
 }
 
-export default function IconButton({ icon }: IconButtonProps){
+export default function IconButton({ icon, onClick }: IconButtonProps){
 
     
 
     return(
-        <div className="icon-button " role="button">
+        <div onClick={onClick} className="icon-button " role="button">
             <img className="icon-button__img" src={iconsData[icon].default} alt="Кнопка" />
             <img className="icon-button__img--active" src={iconsData[icon].active} alt="Кнопка" />
         </div>
