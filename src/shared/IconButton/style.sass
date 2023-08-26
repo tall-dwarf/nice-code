@@ -1,0 +1,20 @@
+.icon-button
+    width: 34px
+    height: 34px
+    background-color: #F1F2F3
+    display: flex
+    justify-content: center
+    align-items: center
+    border-radius: 50%
+    transition: all 0.2s
+    cursor: pointer
+    &__img
+        &--active
+            display: none
+
+    &:hover
+        background-color: #4198C5
+    &:hover &__img
+        display: none
+        &--active
+            display: block
