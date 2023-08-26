@@ -4,7 +4,7 @@ import IconButton from '../shared/IconButton/IconButton';
 import CustomInput from '../widgets/CustomInput/CustomInput';
 import ClientItem from '../entities/clients/ui/ClientItem';
 import ClientList from '../entities/clients/ui/ClientList';
-import DropDown from '../widgets/DropDown/DropDown';
+import DropDown from '../shared/DropDown/DropDown';
 
 export default function App(){
 

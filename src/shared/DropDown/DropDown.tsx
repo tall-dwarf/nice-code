@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import IconButton from '../../shared/IconButton/IconButton';
+import IconButton from '../IconButton/IconButton';
 import "./style.sass"
 
 type DropDownProps = {
