@@ -5,6 +5,7 @@ import CustomInput from '../widgets/CustomInput/CustomInput';
 import ClientItem from '../entities/clients/ui/ClientItem';
 import ClientList from '../entities/clients/ui/ClientList';
 import DropDown from '../shared/DropDown/DropDown';
+import ClientProfile from '../entities/clients/ui/ClientProfile';
 
 export default function App(){
 
@@ -14,6 +15,7 @@ export default function App(){
 
     return(
         <div>
+            <ClientProfile />
             <DropDown onBtnChangeClick={test} onBtnDelClick={test} />
             <CustomInput onBtnAddClick={test} onBtnFilterClick={test} onBtnSearchClick={test} />
             <ClientList />
