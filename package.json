@@ -1,0 +1,27 @@
+{
+    "name": "drafts",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack --config webpack.config.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+
+    "dependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+
+    "devDependencies": {
+        "ts-loader": "^9.4.4",
+        "@types/react": "^18.2.21",
+        "@types/react-dom": "^18.2.7",
+        "@types/webpack": "^5.28.2",
+        "typescript": "^5.2.2",
+        "webpack": "^5.88.2",
+        "webpack-cli": "^5.1.4"
+    }
+}
