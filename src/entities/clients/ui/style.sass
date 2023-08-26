@@ -1,0 +1,40 @@
+.client
+    &-list
+        display: flex
+        flex-direction: column
+        padding: 0px
+        list-style-type: none
+        gap: 10px
+    &-item
+        display: flex
+        align-items: center
+        width: 100%
+        padding: 10px
+        gap: 10px
+        background-color: #fff
+        border-radius: 10px
+        overflow: hidden
+        position: relative
+
+        &__photo
+            max-width: 40px
+            max-height: 40px
+
+        &__name
+            flex: 1 1 auto
+            font-size: 16px
+            font-style: normal
+            font-weight: 400
+            line-height: 20px
+            color: #161718
+
+        &__primary
+            position: absolute
+            top: 0
+            left: 0
+            bottom: 0
+            width: 2px
+            background-color: #4098C5
+    &-item--active
+        background-color: #F1F2F4
+        

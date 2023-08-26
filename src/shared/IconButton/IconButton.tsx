@@ -1,10 +1,10 @@
 import React from "react"
-import IconSearch from "../../app/img/search.svg"
-import IconSearchActive from "../../app/img/search-active.svg"
-import IconFilter from "../../app/img/filter.svg"
-import IconFilterActive from "../../app/img/filter-active.svg"
-import IconAdd from "../../app/img/add.svg"
-import IconAddActive from "../../app/img/add-active.svg"
+import IconSearch from "../../app/img/icons/search.svg"
+import IconSearchActive from "../../app/img/icons/search-active.svg"
+import IconFilter from "../../app/img/icons/filter.svg"
+import IconFilterActive from "../../app/img/icons/filter-active.svg"
+import IconAdd from "../../app/img/icons/add.svg"
+import IconAddActive from "../../app/img/icons/add-active.svg"
 import "./style.sass"
 
 const iconsData = {
