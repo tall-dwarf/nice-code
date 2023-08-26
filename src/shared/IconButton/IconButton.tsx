@@ -5,6 +5,9 @@ import IconFilter from "../../app/img/icons/filter.svg"
 import IconFilterActive from "../../app/img/icons/filter-active.svg"
 import IconAdd from "../../app/img/icons/add.svg"
 import IconAddActive from "../../app/img/icons/add-active.svg"
+import IconEllipsis from "../../app/img/icons/ellipsis.svg"
+import IconEllipsisActive from "../../app/img/icons/ellipsis-active.svg"
+
 import "./style.sass"
 
 const iconsData = {
@@ -20,6 +23,10 @@ const iconsData = {
         active: IconAddActive,
         default: IconAdd
     },
+    ellipsis: {
+        active: IconEllipsisActive,
+        default: IconEllipsis
+    }
 }
 
 type IconButtonProps = {
