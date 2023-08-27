@@ -14,6 +14,8 @@ import ConsultationItem from '../entities/consultation/ui/ConsultationItem';
 import ConsultationList from '../entities/consultation/ui/ConsultationList';
 import VideoItem from '../entities/video/ui/VideoItem';
 import VideoList from '../entities/video/ui/VideoList';
+import EventItem from '../entities/event/ui/EventItem';
+import EventList from '../entities/event/ui/EventList';
 export default function App(){
 
     const test = () => {
@@ -22,6 +24,7 @@ export default function App(){
 
     return(
         <div>
+            <EventList />
             <VideoList />
             <ConsultationList />
             <NoteList />
