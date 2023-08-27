@@ -36,7 +36,7 @@ export default function App(){
 
     return(
         <div>
-            <Radio onRadioClick={test} radioItems={radioData} />
+            <Radio activeItemId={1} onRadioClick={test} radioItems={radioData} />
             <ClientProfile />
             <DropDown onBtnChangeClick={test} onBtnDelClick={test} />
             <CustomInput onBtnAddClick={test} onBtnFilterClick={test} onBtnSearchClick={test} />
