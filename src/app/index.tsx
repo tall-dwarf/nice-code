@@ -12,7 +12,8 @@ import ClientMemu from '../entities/clients/ui/ClientMemu';
 import NoteList from '../entities/note/ui/NoteList';
 import ConsultationItem from '../entities/consultation/ui/ConsultationItem';
 import ConsultationList from '../entities/consultation/ui/ConsultationList';
-import VideoItem from '../entities/video/VideoItem';
+import VideoItem from '../entities/video/ui/VideoItem';
+import VideoList from '../entities/video/ui/VideoList';
 export default function App(){
 
     const test = () => {
@@ -21,7 +22,7 @@ export default function App(){
 
     return(
         <div>
-            <VideoItem />
+            <VideoList />
             <ConsultationList />
             <NoteList />
             <ClientMemu onBtnAddClick={test} updateMenuId={() => console.log()} activMenuId={1} />
