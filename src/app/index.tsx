@@ -8,7 +8,8 @@ import DropDown from '../shared/DropDown/DropDown';
 import ClientProfile from '../entities/clients/ui/ClientProfile';
 import Radio from '../shared/Radio/Radio';
 import ClientMemu from '../entities/clients/ui/ClientMemu';
-
+import NoteItem from '../entities/note/ui/NoTeItem';
+import NoteList from '../entities/note/ui/NoteList';
 export default function App(){
 
 
@@ -19,6 +20,7 @@ export default function App(){
 
     return(
         <div>
+            <NoteList />
             <ClientMemu onBtnAddClick={test} updateMenuId={() => console.log()} activMenuId={1} />
             <ClientProfile />
             <DropDown onBtnChangeClick={test} onBtnDelClick={test} />
