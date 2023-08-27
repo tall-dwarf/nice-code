@@ -7,6 +7,10 @@ import IconAdd from "../../app/img/icons/add.svg"
 import IconAddActive from "../../app/img/icons/add-active.svg"
 import IconEllipsis from "../../app/img/icons/ellipsis.svg"
 import IconEllipsisActive from "../../app/img/icons/ellipsis-active.svg"
+import IconCamera from "../../app/img/icons/camera.svg"
+import IconCameraActive from "../../app/img/icons/camera-active.svg"
+import Iconfrends from "../../app/img/icons/frends.svg"
+import IconfrendsActive from "../../app/img/icons/frends-active.svg"
 
 import "./style.sass"
 
@@ -26,7 +30,16 @@ const iconsData = {
     ellipsis: {
         active: IconEllipsisActive,
         default: IconEllipsis
+    },
+    camera: {
+        active: IconCameraActive,
+        default: IconCamera
+    },
+    frends: {
+        active: IconfrendsActive,
+        default: Iconfrends
     }
+
 }
 
 type IconButtonProps = {

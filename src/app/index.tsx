@@ -8,11 +8,11 @@ import DropDown from '../shared/DropDown/DropDown';
 import ClientProfile from '../entities/clients/ui/ClientProfile';
 import Radio from '../shared/Radio/Radio';
 import ClientMemu from '../entities/clients/ui/ClientMemu';
-import NoteItem from '../entities/note/ui/NoTeItem';
+// import NoteItem from '../entities/note/ui/NoTeItem';
 import NoteList from '../entities/note/ui/NoteList';
+import ConsultationItem from '../entities/consultation/ui/ConsultationItem';
+import ConsultationList from '../entities/consultation/ui/ConsultationList';
 export default function App(){
-
-
 
     const test = () => {
 
@@ -20,6 +20,7 @@ export default function App(){
 
     return(
         <div>
+            <ConsultationList />
             <NoteList />
             <ClientMemu onBtnAddClick={test} updateMenuId={() => console.log()} activMenuId={1} />
             <ClientProfile />
