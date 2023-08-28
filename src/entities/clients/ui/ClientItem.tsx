@@ -30,10 +30,15 @@ export default function ClientItem({
     vk: "/public/icons/vk.svg",
   };
 
+  const onCheckboxClick = (event: React.MouseEvent<HTMLInputElement, MouseEvent>) => {
+    event.stopPropagation()
+    updateClientEdit()
+  }
+
   return (
     <div onClick={onClientClick} className={"client-item " + (isActive && " client-item--active")}>
       {
-        isEdit && <input onClick={() => updateClientEdit()} checked={edit.checked} className="" type="checkbox" />
+        isEdit && <input onClick={onCheckboxClick} checked={edit.checked} className="custom-checkbox" type="checkbox" />
       }
       {client.primary && <div className="client-item__primary"></div>}
       <img className="client-item__photo" src={clientPhoto} alt="Фотография" />
