@@ -29,8 +29,8 @@ type ClientMemuProps = {
 }
 
 export default function ClientMemu({ activMenuId, updateMenuId, onBtnAddClick }: ClientMemuProps){
-    
 
+    
     return( 
         <div className="client-memu">
             <Radio activeItemId={activMenuId} onRadioClick={updateMenuId} radioItems={radioData} />

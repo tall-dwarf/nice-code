@@ -1,13 +1,25 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./style.sass";
-import NoteItem from "./NoTeItem";
+import NoteItem from "./NoteItem";
+import { INote } from "../types";
+import { loadNotesByClient } from "../api";
 
-export default function NoteList(){
+type NoteListProps = {
+  clientId: number;
+};
 
-    return(
-        <ul className="note-list">
-            <NoteItem />
-            <NoteItem />
-        </ul>
-    )
+export default function NoteList({ clientId }: NoteListProps) {
+  const [noteData, setNoteData] = useState<INote[]>([]);
+
+  useEffect(() => {
+    loadNotesByClient(clientId).then((notes) => setNoteData(notes));
+  }, [clientId]);
+
+  return (
+    <ul className="note-list">
+      {noteData.map((note) => (
+        <NoteItem key={note.id} note={note} />
+      ))}
+    </ul>
+  );
 }
