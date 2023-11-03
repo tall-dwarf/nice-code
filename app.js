@@ -37594,10 +37594,10 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function ClientItem({ client, onClientClick, isActive, isEdit, edit, updateClientEdit }) {
-    const clientPhoto = client.photo || "/public/clients/not.png";
+    const clientPhoto = client.photo || "https://tall-dwarf.github.io/nice-code/public/clients/not.png";
     const clientSocials = {
-        telegram: "/public/icons/telegram.svg",
-        vk: "/public/icons/vk.svg",
+        telegram: "https://tall-dwarf.github.io/nice-code/public/icons/telegram.svg",
+        vk: "https://tall-dwarf.github.io/nice-code/public/icons/vk.svg",
     };
     const onCheckboxClick = (event) => {
         event.stopPropagation();
@@ -37608,7 +37608,7 @@ function ClientItem({ client, onClientClick, isActive, isEdit, edit, updateClien
         client.primary && react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", { className: "client-item__primary" }),
         react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", { className: "client-item__photo", src: clientPhoto, alt: "\u0424\u043E\u0442\u043E\u0433\u0440\u0430\u0444\u0438\u044F" }),
         react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", { className: "client-item__name" }, client.name),
-        client.warning && (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", { className: "client-item__warning", src: "/public/icons/warning.svg", alt: "\u041E\u0448\u0438\u0431\u043A\u0430" })),
+        client.warning && (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", { className: "client-item__warning", src: "https://tall-dwarf.github.io/nice-code/public/icons/warning.svg", alt: "\u041E\u0448\u0438\u0431\u043A\u0430" })),
         client.social && (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", { className: "client-item__cosial", src: clientSocials[client.social], alt: "\u0422\u0435\u043B\u0435\u0433\u0440\u0430\u043C" }))));
 }
 
@@ -41142,7 +41142,7 @@ __webpack_require__.r(__webpack_exports__);
 const allClients = [
     {
         id: 1,
-        photo: "/public/clients/2.png",
+        photo: "https://tall-dwarf.github.io/nice-code/public/clients/2.png",
         warning: false,
         social: "telegram",
         name: "Кравцова Александра",
@@ -41150,7 +41150,7 @@ const allClients = [
     },
     {
         id: 2,
-        photo: "/public/clients/1.png",
+        photo: "https://tall-dwarf.github.io/nice-code/public/clients/1.png",
         warning: false,
         social: null,
         name: "Рожков Денис ",
@@ -41158,7 +41158,7 @@ const allClients = [
     },
     {
         id: 3,
-        photo: "/public/clients/3.png",
+        photo: "https://tall-dwarf.github.io/nice-code/public/clients/3.png",
         warning: false,
         social: "vk",
         primary: false,
@@ -41166,7 +41166,7 @@ const allClients = [
     },
     {
         id: 4,
-        photo: "/public/clients/4.png",
+        photo: "https://tall-dwarf.github.io/nice-code/public/clients/4.png",
         warning: false,
         social: null,
         primary: false,
@@ -41174,7 +41174,7 @@ const allClients = [
     },
     {
         id: 5,
-        photo: "/public/clients/3.png",
+        photo: "https://tall-dwarf.github.io/nice-code/public/clients/3.png",
         warning: false,
         social: "telegram",
         primary: false,
@@ -41182,7 +41182,7 @@ const allClients = [
     },
     {
         id: 6,
-        photo: "/public/clients/2.png",
+        photo: "https://tall-dwarf.github.io/nice-code/public/clients/2.png",
         warning: true,
         social: null,
         primary: false,
@@ -41190,7 +41190,7 @@ const allClients = [
     },
     {
         id: 7,
-        photo: "/public/clients/5.png",
+        photo: "https://tall-dwarf.github.io/nice-code/public/clients/5.png",
         warning: false,
         social: null,
         primary: true,
@@ -41198,7 +41198,7 @@ const allClients = [
     },
     {
         id: 8,
-        photo: "/public/clients/6.png",
+        photo: "https://tall-dwarf.github.io/nice-code/public/clients/6.png",
         warning: false,
         social: null,
         primary: true,
@@ -41206,7 +41206,7 @@ const allClients = [
     },
     {
         id: 9,
-        photo: "/public/clients/6.png",
+        photo: "https://tall-dwarf.github.io/nice-code/public/clients/6.png",
         warning: false,
         social: null,
         primary: false,
@@ -41214,7 +41214,7 @@ const allClients = [
     },
     {
         id: 10,
-        photo: "/public/clients/7.png",
+        photo: "https://tall-dwarf.github.io/nice-code/public/clients/7.png",
         warning: false,
         social: null,
         primary: false,
@@ -41222,7 +41222,7 @@ const allClients = [
     },
     {
         id: 11,
-        photo: "/public/clients/8.png",
+        photo: "https://tall-dwarf.github.io/nice-code/public/clients/8.png",
         warning: false,
         social: null,
         primary: false,
@@ -41230,7 +41230,7 @@ const allClients = [
     },
     {
         id: 12,
-        photo: "/public/clients/9.png",
+        photo: "https://tall-dwarf.github.io/nice-code/public/clients/9.png",
         warning: false,
         social: null,
         primary: false,
@@ -41238,7 +41238,7 @@ const allClients = [
     },
     {
         id: 13,
-        photo: "/public/clients/1.png",
+        photo: "https://tall-dwarf.github.io/nice-code/public/clients/1.png",
         warning: false,
         social: null,
         primary: false,
@@ -41246,7 +41246,7 @@ const allClients = [
     },
     {
         id: 14,
-        photo: "/public/clients/3.png",
+        photo: "https://tall-dwarf.github.io/nice-code/public/clients/3.png",
         warning: false,
         social: "vk",
         primary: false,
@@ -41254,7 +41254,7 @@ const allClients = [
     },
     {
         id: 15,
-        photo: "/public/clients/4.png",
+        photo: "https://tall-dwarf.github.io/nice-code/public/clients/4.png",
         warning: false,
         social: null,
         primary: false,
@@ -41262,7 +41262,7 @@ const allClients = [
     },
     {
         id: 16,
-        photo: "/public/clients/3.png",
+        photo: "https://tall-dwarf.github.io/nice-code/public/clients/3.png",
         warning: false,
         primary: false,
         social: "telegram",
@@ -41270,7 +41270,7 @@ const allClients = [
     },
     {
         id: 17,
-        photo: "/public/clients/2.png",
+        photo: "https://tall-dwarf.github.io/nice-code/public/clients/2.png",
         warning: true,
         social: null,
         primary: false,
@@ -41278,7 +41278,7 @@ const allClients = [
     },
     {
         id: 18,
-        photo: "/public/clients/5.png",
+        photo: "https://tall-dwarf.github.io/nice-code/public/clients/5.png",
         warning: false,
         primary: false,
         social: null,
@@ -41286,7 +41286,7 @@ const allClients = [
     },
     {
         id: 19,
-        photo: "/public/clients/6.png",
+        photo: "https://tall-dwarf.github.io/nice-code/public/clients/6.png",
         warning: false,
         social: null,
         primary: false,
@@ -41294,7 +41294,7 @@ const allClients = [
     },
     {
         id: 20,
-        photo: "/public/clients/6.png",
+        photo: "https://tall-dwarf.github.io/nice-code/public/clients/6.png",
         warning: false,
         primary: false,
         social: null,
@@ -41302,7 +41302,7 @@ const allClients = [
     },
     {
         id: 21,
-        photo: "/public/clients/7.png",
+        photo: "https://tall-dwarf.github.io/nice-code/public/clients/7.png",
         warning: false,
         primary: false,
         social: null,
@@ -41310,7 +41310,7 @@ const allClients = [
     },
     {
         id: 22,
-        photo: "/public/clients/8.png",
+        photo: "https://tall-dwarf.github.io/nice-code/public/clients/8.png",
         warning: false,
         primary: false,
         social: null,
@@ -41318,7 +41318,7 @@ const allClients = [
     },
     {
         id: 23,
-        photo: "/public/clients/9.png",
+        photo: "https://tall-dwarf.github.io/nice-code/public/clients/9.png",
         warning: false,
         social: null,
         primary: false,
@@ -41331,35 +41331,35 @@ const profileData = [
         name: "Кравцова Александра",
         age: 22,
         gender: "муж",
-        photo: "/public/clients/2.png",
+        photo: "https://tall-dwarf.github.io/nice-code/public/clients/2.png",
     },
     {
         clientId: 2,
         name: "Рожков Денис",
         age: 25,
         gender: "муж",
-        photo: "/public/clients/2.png",
+        photo: "https://tall-dwarf.github.io/nice-code/public/clients/2.png",
     },
     {
         clientId: 3,
         name: "Диброва Алевтина",
         age: 27,
         gender: "жен",
-        photo: "/public/clients/2.png",
+        photo: "https://tall-dwarf.github.io/nice-code/public/clients/2.png",
     },
     {
         clientId: 4,
         name: "Диброва Алевтина",
         age: 15,
         gender: "жен",
-        photo: "/public/clients/2.png",
+        photo: "https://tall-dwarf.github.io/nice-code/public/clients/2.png",
     },
     {
         clientId: 5,
         name: "nosikov@list.ru",
         age: 28,
         gender: "муж",
-        photo: "/public/clients/2.png",
+        photo: "https://tall-dwarf.github.io/nice-code/public/clients/2.png",
     },
 ];
 
@@ -41703,7 +41703,7 @@ function ClientProfile() {
     };
     return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", { className: "client-profile" },
         react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", { className: "client-profile__photo" },
-            react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", { src: "/public/clients/1.png", alt: "\u0424\u043E\u0442\u043E\u0433\u0440\u0430\u0444\u0438\u044F" })),
+            react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", { src: "https://tall-dwarf.github.io/nice-code/public/clients/1.png", alt: "\u0424\u043E\u0442\u043E\u0433\u0440\u0430\u0444\u0438\u044F" })),
         react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", { className: "client-profile__info" },
             react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", { className: "client-profile__name" }, clientProfile === null || clientProfile === void 0 ? void 0 : clientProfile.name),
             react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", { className: "client-profile__age" }, clientProfile === null || clientProfile === void 0 ? void 0 :
@@ -47462,7 +47462,7 @@ const noteData = [
         clientId: 1,
         date: "20.12.2019",
         text: "Улучшенное питание мышечной ткани ускоряет замещение различных посттравматических дефектов в самих мышцах, костной ткани, связках и сухожилиях.",
-        photo: "/public/note/1.jpg",
+        photo: "https://tall-dwarf.github.io/nice-code/public/note/1.jpg",
     },
     {
         id: 3,
@@ -47476,7 +47476,7 @@ const noteData = [
         clientId: 2,
         date: "20.12.2019",
         text: "Улучшенное питание мышечной ткани ускоряет замещение различных посттравматических дефектов в самих мышцах, костной ткани, связках и сухожилиях.",
-        photo: "/public/note/1.jpg",
+        photo: "https://tall-dwarf.github.io/nice-code/public/note/1.jpg",
     },
     {
         id: 5,
@@ -47490,7 +47490,7 @@ const noteData = [
         clientId: 3,
         date: "20.12.2019",
         text: "Улучшенное питание мышечной ткани ускоряет замещение различных посттравматических дефектов в самих мышцах, костной ткани, связках и сухожилиях.",
-        photo: "/public/note/1.jpg",
+        photo: "https://tall-dwarf.github.io/nice-code/public/note/1.jpg",
     },
     {
         id: 7,
@@ -47504,7 +47504,7 @@ const noteData = [
         clientId: 4,
         date: "20.12.2019",
         text: "Улучшенное питание мышечной ткани ускоряет замещение различных посттравматических дефектов в самих мышцах, костной ткани, связках и сухожилиях.",
-        photo: "/public/note/1.jpg",
+        photo: "https://tall-dwarf.github.io/nice-code/public/note/1.jpg",
     },
     {
         id: 9,
@@ -47518,7 +47518,7 @@ const noteData = [
         clientId: 5,
         date: "20.12.2019",
         text: "Улучшенное питание мышечной ткани ускоряет замещение различных посттравматических дефектов в самих мышцах, костной ткани, связках и сухожилиях.",
-        photo: "/public/note/1.jpg",
+        photo: "https://tall-dwarf.github.io/nice-code/public/note/1.jpg",
     },
 ];
 
@@ -47729,7 +47729,7 @@ __webpack_require__.r(__webpack_exports__);
 function VideoItem() {
     return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", { className: "video-item" },
         react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", { className: "video-item__preview" },
-            react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", { src: "/public/video/1.jpg", alt: "\u0412\u0438\u0434\u0435\u043E" })),
+            react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", { src: "https://tall-dwarf.github.io/nice-code/public/video/1.jpg", alt: "\u0412\u0438\u0434\u0435\u043E" })),
         react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", { className: "video-item__content" },
             react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", { className: "video-item__name" }, "\u0420\u0430\u0437\u043C\u0438\u043D\u043A\u0430 \u0434\u043B\u044F \u043B\u043E\u043A\u0442\u0435\u0432\u043E\u0433\u043E \u0441\u0443\u0441\u0442\u0430\u0432\u0430\u0420\u0430\u0437\u043C\u0438\u043D\u043A\u0430 \u0434\u043B\u044F \u043B\u043E\u043A\u0442\u0435\u0432\u043E\u0433\u043E.."),
             react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", { className: "video-item__info" },
@@ -47889,7 +47889,7 @@ __webpack_require__.r(__webpack_exports__);
 function EventItem() {
     return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", { className: "event-item" },
         react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", { className: "event-item__logo" },
-            react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", { className: "event-item__img", src: "/public/events/1.jpg", alt: "" })),
+            react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", { className: "event-item__img", src: "https://tall-dwarf.github.io/nice-code/public/events/1.jpg", alt: "" })),
         react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", { className: "event-item__content" },
             react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", { className: "event-item__name" }, "\u0422\u044F\u0433\u0430 \u0440\u0435\u0437\u0438\u043D\u043A\u0438 \u0432 \u0448\u0430\u0433\u0435 \u0441\u043E \u0441\u0433\u0438\u0431\u0430\u043D\u0438\u0435\u043C \u043B\u043E\u043A\u0442\u044F \u043F\u043E\u0434 90 \u0433\u0440\u0430\u0434\u0443\u0441\u043E\u0432 "),
             react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", { className: "event-item__info" },
@@ -48253,7 +48253,7 @@ const store = (0,_reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_1__.configureStore)({
 /******/ 		};
 /******/ 	})();
 /******/ 	
-/******/ 	/* webpack/runtime/publicPath */
+/******/ 	/* webpack/runtimehttps://tall-dwarf.github.io/nice-code/publicPath */
 /******/ 	(() => {
 /******/ 		var scriptUrl;
 /******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
